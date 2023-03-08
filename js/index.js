@@ -31,8 +31,12 @@ function validateform() {
     var email = document.forms['contact-form']['email'].value;
     var select = document.forms['contact-form']['select'].value;
 
-    if (name == '' || email == '' || select == '') {
+    if (name == '' || email == '' ) {
         alert('Input tidak boleh kosong!!');
         return false;
-    }
+    } 
+
+    alert('data berhasil dikirim')
 }
+
+
